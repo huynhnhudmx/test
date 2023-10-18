@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#938768"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:text="Student name"
+            android:textSize="25dp"
+            android:textColor="#0269EA"
+            android:id="@+id/tvSdname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#0E0E0E"
+                android:textSize="20sp"
+                android:text="Code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></TextView>
+            <TextView
+                android:id="@+id/tvStudentCode"
+                android:textColor="#090909"
+                android:layout_marginLeft="20dp"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text= "3">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton
+        android:src="@drawable/baseline_subject_24"
+        android:id="@+id/studentinformation"
+        android:layout_marginTop="25dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"></ImageButton>
+
+    <ImageButton
+        android:src="@drawable/baseline_update_24"
+        android:id="@+id/studentupdate"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"></ImageButton>
+
+    <ImageButton
+        android:src="@drawable/baseline_delete_24"
+        android:id="@+id/studentdelete"
+        android:layout_marginTop="25dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"></ImageButton>
+</LinearLayout>
